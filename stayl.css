@@ -1,0 +1,521 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.background {
+    background:linear-gradient(to right,rgb(95, 17, 220),rgb(161, 33, 230));
+    width: 100%;
+    height: 500px;
+}
+/*start hedar*/
+.qwq{
+    position: fixed;
+}
+.hedar {
+    display: flex;
+    justify-content: space-between;
+    /* background-color: rgb(4, 39, 69);*/
+    padding: 10px;
+}
+
+.hedar .logo {
+    color: #fff;
+    font-size: 25px;
+}
+
+.hedar .navbar {
+    display: inline-block;
+
+}
+
+.hedar a {
+    text-decoration: none;
+    color: #fff;
+    padding-left: 10px;
+    font-size: 20px;
+}
+
+.hedar a:hover {
+    color: rgb(119, 76, 21);
+
+}
+
+.hedar .start-free {
+    background:linear-gradient(to right,rgb(115, 51, 218),blue);
+    border-radius: 15px;
+    padding: 2px 5px 2px 0px;
+
+}
+/*end hedar*/
+/*start home*/
+.desplay {
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 20px 0 60px;
+}
+
+.revolutionary {
+    display: block;
+    color: #fff;
+    line-height: 30px;
+
+}
+
+.desplay .imgs {
+    position: relative;
+
+}
+
+
+.revolutionary .inbot a {
+    text-decoration: none;
+    color: #fff;
+    background:linear-gradient(to right,rgb(180, 0, 180),blue);
+    padding: 10px 20px;
+    border-radius: 50px;
+    font-size: 30px;
+cursor: pointer;
+}
+.revolutionary .inbot:hover{
+    background:linear-gradient(to right,rgb(0, 180, 84),rgb(152, 4, 137));
+}
+
+.bg-top {
+    margin-top: -408px;
+}
+.desplay .icon {
+    line-height: 65px;
+    color: blue;
+    position: relative;
+    margin: 20px;
+}
+/*.desplay .icon div {
+    width: 35px;
+    height: 35px;
+    background-color: rgb(188, 124, 44);
+    border-radius: 50%;
+    position: relative;
+}
+
+.desplay .icon div div {
+    width: 20px;
+    height: 20px;
+    background-color: bisque;
+    border-radius: 50%;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}*/
+
+.bg-top img {
+
+    width: 100%;
+}
+
+/*end home*/
+/*start app*/
+.app {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 250px;
+}
+
+.app .about-app {
+    display: block;
+    margin: 70px 30px 0 60px;
+    line-height: 30px;
+
+}
+
+.app .about-app .icon {
+    display: flex;
+    margin-top: 26px;
+    justify-content: space-around;
+    margin-left: -130px;
+}
+
+.app .about-app .color{
+    color: rgb(110, 28, 211);
+}
+
+.app .about-app .icon .active,
+.client {
+    display: flex;
+}
+.app .about-app .icon .active .acto,
+.app .about-app .icon .client .acto{
+    font-size: 30px;
+    color: rgb(105, 25, 225);
+}
+.app .about-app .inpot {
+    width: 130px;
+    margin-top: 20px;
+    text-decoration: none;
+    color: #fff;
+    background:linear-gradient(to  right,rgb(115, 51, 218),blue);
+    padding: 10px 20px;
+    border-radius: 50px;
+    font-size: 30px;
+cursor: pointer;
+}
+.app .about-app .inpot:hover{
+    background:linear-gradient(to right,rgb(18, 0, 180),rgb(166, 0, 255));
+}
+.app .about-app .inpot a{
+    font-size: 30px;
+    text-decoration: auto;
+    color: #fff;
+}
+/*end app*/
+/*start awesome*/
+.awesome{
+    display: block;
+}
+.awesome .features h2{
+    color: rgb(105, 25, 225);
+}
+.awesome .features{
+    text-align: center;
+}
+.awesome .grop{
+    display: block;
+    height: 640px;
+}
+.awesome .grop .grop1, .grop2{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 25px;
+}
+.awesome .grop .grop1 .high, .grop2 .high{
+    width: 250px;
+    height: 200px;
+    background-color:rgb(223, 223, 255);
+    padding: 10px;
+    line-height: 25px;
+}
+
+.awesome .grop i{
+    background:linear-gradient(to right,rgb(115, 51, 218),blue);
+    color: #fff;
+    border-radius: 50%;
+    padding: 8px;
+    font-size: 30px;
+}
+/*end awesome*/
+/*start screenshot */
+.screenshot{
+    display: flex;
+}
+.screenshot .user{
+    margin: 0 50px 0 60px;
+}
+.screenshot .user p i{
+    color: blue;
+    margin-right: 5px;
+    font-size: 20px;
+}
+.screenshot .user .color{
+    color: blue;
+}
+.screenshot .user .inbot{
+    width: 120px;
+    height: 40px;
+    text-decoration: none;
+    background:linear-gradient(to right,rgb(115, 51, 218),rgb(47, 47, 239));
+    padding: 10px 20px;
+    border-radius: 50px;
+    font-size: 30px;
+cursor: pointer;
+}
+.screenshot .user .inbot:hover{
+    background:linear-gradient(to right,rgb(63, 0, 180),rgb(115, 51, 218));
+}
+.screenshot .user .inbot a{
+    text-decoration: none;
+    font-size: 25px;
+    color: #fff;
+}
+.screenshot .icon{
+    line-height: 65px;
+    color: blue;
+    position: relative;
+    margin: 20px;
+}
+/*end screenshot*/
+/*start easy*/
+.easy {
+    display: block;
+}
+.easy .steps{
+    text-align: center;
+}
+.easy .steps p{
+    color: blue;
+}
+.easy .grop{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 25px;
+}
+.easy .grop .install{
+    width: 250px;
+    height: 200px;
+    background-color:  rgb(223, 223, 255);
+    border: 16px solid  rgb(223, 223, 255);
+    line-height: 25px;
+    text-align: center;
+}
+.easy .grop .install i{
+    background-color: blue;
+    color: #fff;
+    font-size: 50px;
+    margin: -55px 0 20px 0;
+    padding: 15px;
+    border-radius: 50%;
+}
+/*end easy*/
+/*start dowload*/
+.download{
+    display: flex;
+    margin-top: 100px;
+}
+.download .our-app{
+    display: block;
+    margin:100px 30px 0 100px;
+    line-height: 35px;
+}
+.download .our-app .colo{
+    color: blue;
+}
+.download .our-app .grop{
+    display: flex;
+    justify-content: space-between;
+}
+.download .our-app .grop .app-store{
+    width: 200px;
+    height: 70px;
+    background:linear-gradient(to right,rgb(115, 51, 218),blue);
+    border-radius: 10px;
+    display: flex;
+}
+.download .our-app .grop .app-store>div{
+    color: #fff;
+}
+.download .our-app .grop .app-store i{
+    color: #fff;
+    font-size: 50px;
+    padding: 10px 10px 0 10px;
+}
+/*end dowload*/
+/*start pricing*/
+.choose{
+    display: block;
+}
+.choose .pricing{
+    text-align: center;
+}
+.choose .pricing h4{
+    color: blue;
+}
+
+.choose .pricing .inpot .whi{
+    text-decoration:none ;
+    background:linear-gradient(to right,rgb(115, 51, 218),blue);
+    color: #fff;
+    font-size: 25px;
+    padding: 10px;
+    border-radius: 30px 0 0 30px;
+
+}
+.choose .pricing .inpot .whi:hover{
+    background-color: #e4e4e4;
+    color: #000000;
+}
+.choose .pricing .inpot .bla{
+    text-decoration:none ;
+    background-color: #e4e4e4;
+    color: #000000;
+    font-size: 25px;
+    padding: 10px;
+    border-radius:0 30px 30px 0;
+    margin-left: -13px
+}
+.choose .pricing .inpot .bla:hover{
+    background:linear-gradient(to  right,rgb(115, 51, 218),blue);
+    color: #fff;
+}
+.choose .grop{
+    display: flex;
+    justify-content: space-around;
+}
+.choose .grop .starter{
+    width: 200px;
+    height: 250px;
+    background-color: rgb(215, 214, 221);
+    padding: 20px;
+    border-radius: 10px;
+    line-height: 30px;
+}
+.choose .grop .starter ul li{
+    list-style: none;
+}
+.choose .grop .starter a{
+text-decoration: none;
+color: #fff;
+background:linear-gradient(to right,rgb(115, 51, 218),blue);
+padding: 5px 20px;
+border-radius: 50px;
+font-size: 20px;
+cursor: pointer;
+}
+/*end pricing*/
+/*start testimonial*/
+.testimonial{
+    display: block;
+    margin: 100px 50px 0 50px;
+}
+.testimonial .clients{
+    text-align: center;
+}
+.testimonial .mother-grop{
+    display: flex;
+    justify-content: space-around;
+}
+.testimonial .mother-grop>div{
+    display: block;
+    width: 300px;
+    height: 200px;
+    padding: 10px;
+    border-radius: 7px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+
+
+}
+.testimonial .mother-grop .grop-color{
+    background:linear-gradient(to right,rgb(115, 51, 218),blue);
+}
+.testimonial .mother-grop>div .grop1{
+    display: flex;
+}
+.testimonial .mother-grop>div .grop1 .name .star{
+    display: flex;
+    color: rgb(225, 255, 0);
+}
+.testimonial .circle{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.testimonial .circle div{
+    width: 40px;
+    height: 40px;
+    background-color: blue;
+    border-radius: 50%;
+    margin: 5px;
+}
+/*end testimonial*/
+/*start contact*/
+.contact{
+    margin-top: 50px;
+}
+.contact .get{
+    text-align: center;
+}
+.contact .get p, .contact .form form  .tex span{
+    color: #3b0de0;
+}
+.contact .form form  .tex{
+    text-align: center;
+    width: 500px;
+}
+.contact .form form{
+    display: grid;
+    justify-content: center;
+}
+.contact .form form .submit{
+    width: 150px;
+    border-radius: 50px;
+    text-decoration: none;
+    background-color: blue;
+    color: #fff;
+    font-size: 20px;
+    margin-left: 90px;
+}
+
+/*end contact*/
+/*start final*/
+.final{
+
+    display: flex;
+    justify-content: space-around;
+    background:linear-gradient(to right,rgb(115, 51, 218),blue);
+    color: #fff;
+    line-height: 40px;
+}
+.final> div{
+    margin-top: 183px;
+}
+.final> div p i{
+    color: #fff;
+}
+.final .address .ico{
+    display: flex;
+    justify-content: space-around;
+    color: #fff;
+}
+.final .address .ico i:hover{
+    color: aqua;
+}
+.bg-to{
+    width: 100%;
+    margin-bottom: -310px;
+}
+
+/*end final*/
+/*end*/
+.end{
+    display: flex;
+    justify-content: space-around;
+    background:linear-gradient(to right,rgb(115, 51, 218),blue);
+    color: #fff;
+    height: 50px;
+
+}
+.end .left{
+    width: 300px;
+    display: flex;
+    justify-content: space-around;
+}
+.end span{
+    text-decoration: underline;
+}
+/*
+.navbar .nav-button{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: aqua;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.navbar .dropdown:hover .dropdown-menu{
+    display: block;
+}
+
+.navbar .dropdown-menu li{
+    list-style-type: none;
+}
+
+.navbar .dropdown-menu li a{
+    display: block;
+    padding: 5px 0;
+    color: #333;
+    text-decoration: none;
+}
+
+.navbar .dropdown-menu li a:hover{
+    color: #4caf50;
+}
